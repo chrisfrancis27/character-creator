@@ -6,3 +6,10 @@
   text-align: center;
 }
 
+.footer a,
+.footer a:visited {
+  color: hsl(0deg, 100%, 100%);
+}
+.footer a:hover {
+  color: hsl(0, 0%, 90%);
+}
