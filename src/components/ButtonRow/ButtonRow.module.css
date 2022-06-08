@@ -1,2 +1,7 @@
 .buttonRow {
 }
+@media screen and (max-width: 800px) {
+  .buttonRow {
+    overflow-x: scroll;
+  }
+}

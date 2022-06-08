@@ -3,9 +3,6 @@
   padding-bottom: 64px;
 }
 
-.maxWidthWrapper {
-}
-
 .header {
   padding-bottom: 64px;
 }
@@ -27,4 +24,30 @@
 }
 
 .controlColumn {
+}
+
+@media screen and (max-width: 800px) {
+  .characterEditor {
+    height: 150vh;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .controlColumn {
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
+    position: absolute;
+    top: 100vh;
+    scroll-snap-type: x;
+  }
+
+  .characterWrapper {
+    position: static;
+    width: 100%;
+    max-width: unset;
+    text-align: center;
+  }
 }
