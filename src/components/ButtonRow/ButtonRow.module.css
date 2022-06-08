@@ -1,2 +1,11 @@
 .buttonRow {
+  overflow: auto;
+  white-space: nowrap;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  scroll-snap-type: x;
+}
+
+.buttonRow > * {
+  scroll-snap-align: start;
 }
